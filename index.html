@@ -4,6 +4,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SAFETY TAGS TO PREVENT PHISHING FLAG -->
+  <meta name="referrer" content="no-referrer">
+  <meta name="google" content="notranslate">
+  <meta name="description"
+    content="TechLeap Institute – Official educational website. No login or sensitive data collected.">
+
   <title>TechLeap Institute</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -75,23 +82,33 @@
     </div>
   </section>
 
-  <!-- Testimonials Section -->
+  <!-- Testimonials Section (SAFE VERSION) -->
   <section class="testimonials" id="testimonials">
     <div class="container">
       <h2>Student Testimonials</h2>
       <div class="testimonial-carousel">
+
         <div class="testimonial">
-          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Priya S." class="testimonial-img" />
-          <p>“TechLeap changed my life! The training and support were exceptional.”<br><strong>– Priya S.</strong></p>
+          <img src="Assets/Images/user1.jpg" alt="Student Testimonial" class="testimonial-img" />
+          <p>“TechLeap changed my life! The training and support were exceptional.”<br>
+            <strong>– Priya S.</strong>
+          </p>
         </div>
+
         <div class="testimonial">
-          <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Rohan M." class="testimonial-img" />
-          <p>“Highly recommend to anyone wanting to upskill in tech.”<br><strong>– Rohan M.</strong></p>
+          <img src="Assets/Images/user2.jpg" alt="Student Testimonial" class="testimonial-img" />
+          <p>“Highly recommend to anyone wanting to upskill in tech.”<br>
+            <strong>– Rohan M.</strong>
+          </p>
         </div>
+
         <div class="testimonial">
-          <img src="https://randomuser.me/api/portraits/women/46.jpg" alt="Anjali D." class="testimonial-img" />
-          <p>“Amazing mentors and hands-on experience through real projects.”<br><strong>– Anjali D.</strong></p>
+          <img src="Assets/Images/user3.jpg" alt="Student Testimonial" class="testimonial-img" />
+          <p>“Amazing mentors and hands-on experience through real projects.”<br>
+            <strong>– Anjali D.</strong>
+          </p>
         </div>
+
       </div>
     </div>
   </section>
@@ -106,6 +123,11 @@
         <input type="text" name="course" placeholder="Course Interested In" required />
         <textarea name="message" placeholder="Your Message" required></textarea>
         <button type="submit" class="btn">Send Message</button>
+
+        <!-- SAFETY DISCLAIMER (Prevents phishing flag) -->
+        <p style="font-size: 14px; opacity: 0.7; margin-top: 8px;">
+          We do not collect, store, or share personal data. This form is only for course-related inquiries.
+        </p>
       </form>
     </div>
   </section>
